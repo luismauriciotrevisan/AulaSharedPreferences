@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.example.aulasharedpreferences.ConfigActivity">
+
+    <EditText
+        android:id="@+id/et_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="seu nome"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seus estilos preferidos de filmes"/>
+    <CheckBox
+        android:id="@+id/cb_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comédia"
+        />
+    <CheckBox
+        android:id="@+id/cb_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drama"
+        />
+    <CheckBox
+        android:id="@+id/cb_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terror"
+        />
+    <CheckBox
+        android:id="@+id/cb_04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="outro"
+        />
+    <Button
+        android:id="@+id/bt_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirma"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
